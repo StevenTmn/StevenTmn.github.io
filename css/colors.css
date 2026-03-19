@@ -1,0 +1,10 @@
+:root {
+  /* Slate / Blue-Gray Palette */
+  --color-slate-1: #E9EAEF; /* Lightest */
+  --color-slate-2: #C0C3D1;
+  --color-slate-3: #979DB4;
+  --color-slate-4: #747B9A; /* Middle */
+  --color-slate-5: #50587E;
+  --color-slate-6: #30364F;
+  --color-slate-7: #141725; /* Darkest */
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@import url('colors.css');
+
+
+#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-size: 3.0vh;
+    background: var(--color-slate-5);
+}
+
+#main-header h1 {
+    color: var(--color-slate-7);
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+}
+
+#main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-slate-4);
+    position: sticky;
+    height: 5vh;
+    font-size: 2.5vh;
+    top: 0;
+    z-index: 100;
+}
+
+#main-nav a {
+    padding: 0 2em;
+    background-color: var(--color-slate-2);
+    font-family: "Roboto Mono", monospace;
+}
+
+#main-nav a:is(:link, :visited) {
+    color: var(--color-slate-7);
+    text-decoration: none;
+}
+
+#main-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+#headshot-image {
+    max-width: 30vw;
+    height: auto;
+    border: 1vh solid var(--color-slate-4);
+    border-radius: 8vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: var(--color-slate-1);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+
+section h2 {
+    font-size: 2.5rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-slate-2);
+}
+
+section p {
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    font-size: xx-large;
+}
