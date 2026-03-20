@@ -67,7 +67,7 @@
     border-radius: 8vh;
 }
 
-.collage-image {
+.project-image {
     max-width: 40vw;
     height: auto;
     border: 1vh solid var(--color-slate-4);
@@ -101,7 +101,10 @@ section h2 {
         font-size: 2.5rem;
         background-color: var(--color-slate-5);
         display: inline-block;
-        padding: 0.35rem 10rem;  
+        padding: 0.35rem 10rem;
+        border-radius: 10em;
+        border-style:solid;
+        border-color: var(--color-slate-7);
 }
 
 main {
@@ -117,13 +120,14 @@ main {
 }
 
 .project-list {
-    padding-left: 1.25rem;
+    display: inline-block;
+    text-align: left;
+    font-size: 2rem;
 }
 
 .projects-list li {
     color: var(--color-slate-7);
     line-height: 1.5;
-    font-size:xx-large;
 }
 
 section p {
@@ -132,7 +136,7 @@ section p {
     margin-right: auto;
     overflow-wrap: anywhere;
     word-break: normal;
-    font-size: xx-large;
+    font-size: 24px;
 }
 
 section hr {
