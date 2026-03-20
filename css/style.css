@@ -53,6 +53,27 @@
     border-radius: 8vh;
 }
 
+#resume-image {
+    max-width: 80vw;
+    height: auto;
+    border: 1vh solid var(--color-slate-4);
+    border-radius: 8vh;
+}
+
+#microcontroller-image {
+    max-width: 15vw;
+    height: auto;
+    border: 1vh solid var(--color-slate-4);
+    border-radius: 8vh;
+}
+
+.collage-image {
+    max-width: 40vw;
+    height: auto;
+    border: 1vh solid var(--color-slate-4);
+    border-radius: 8vh;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -75,6 +96,14 @@ section h2 {
     font-size: 2.5rem;
 }
 
+.h2-alternate-color {
+        color: var(--color-slate-1);
+        font-size: 2.5rem;
+        background-color: var(--color-slate-5);
+        display: inline-block;
+        padding: 0.35rem 10rem;  
+}
+
 main {
     flex: 1;
     display: flex;
@@ -87,6 +116,16 @@ main {
     background-color: var(--color-slate-2);
 }
 
+.project-list {
+    padding-left: 1.25rem;
+}
+
+.projects-list li {
+    color: var(--color-slate-7);
+    line-height: 1.5;
+    font-size:xx-large;
+}
+
 section p {
     max-width: 100ch;
     margin-left: auto;
@@ -94,4 +133,16 @@ section p {
     overflow-wrap: anywhere;
     word-break: normal;
     font-size: xx-large;
+}
+
+section hr {
+    width: 100%;
+    max-width: 120rem;
+    border: 0;
+    border-top: 3px solid var(--color-slate-4);
+    margin: 1.5rem
+}
+
+section hr.dotted {
+    border-top-style: dotted;
 }
