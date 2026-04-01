@@ -63,6 +63,86 @@
 			I am helping build a system to track temperature trends across campus buildings by utilizing microcontrollers and sensors that communicate
 			 via REST APIs to display real-time environmental data on a web dashboard.
 			</p>
+			<!DOCTYPE html>
+			<html lang="en">
+			<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Average Humidity And Temperature Dashboard</title>
+				<style>
+					.container {
+						max-width: 1200px;
+						margin: 0 auto;
+						background-color: white;
+						padding: 20px;
+						border-radius: 8px;
+						box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+					}
+					h1 {
+						text-align: center;
+						color: #333;
+						margin-bottom: 30px;
+					}
+					#viz1775005017109 {
+						position: relative;
+						width: 100%;
+					}
+				</style>
+			</head>
+			<body>
+				<div class="container">
+					<h1>Average Humidity And Temperature Dashboard</h1>
+					<h3>Made with Tableau</h3>
+					
+					<div id="viz1775005017109" style="position: relative;">
+						<noscript>
+							<a href="#">
+								<img alt="Average Humidity And Temperature Dashboard" 
+									src="https://public.tableau.com/static/images/Io/IoT_Tableau_17750044732680/AverageHumidityAndTempertureDashbaord/1_rss.png" 
+									style="border: none;" />
+							</a>
+						</noscript>
+						
+						<object class="tableauViz" style="display:none;">
+							<param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+							<param name="embed_code_version" value="3" />
+							<param name="site_root" value="" />
+							<param name="name" value="IoT_Tableau_17750044732680/AverageHumidityAndTempertureDashbaord" />
+							<param name="tabs" value="no" />
+							<param name="toolbar" value="yes" />
+							<param name="static_image" value="https://public.tableau.com/static/images/Io/IoT_Tableau_17750044732680/AverageHumidityAndTempertureDashbaord/1.png" />
+							<param name="animate_transition" value="yes" />
+							<param name="display_static_image" value="yes" />
+							<param name="display_spinner" value="yes" />
+							<param name="display_overlay" value="yes" />
+							<param name="display_count" value="yes" />
+							<param name="language" value="en-US" />
+							<param name="filter" value="publish=yes" />
+						</object>
+					</div>
+				</div>
+
+				<script type="text/javascript">
+					var divElement = document.getElementById('viz1775005017109');
+					var vizElement = divElement.getElementsByTagName('object')[0];
+					
+					if (divElement.offsetWidth > 800) {
+						vizElement.style.width = '1000px';
+						vizElement.style.height = '827px';
+					} else if (divElement.offsetWidth > 500) {
+						vizElement.style.width = '1000px';
+						vizElement.style.height = '827px';
+					} else {
+						vizElement.style.width = '100%';
+						vizElement.style.height = '727px';
+					}
+					
+					var scriptElement = document.createElement('script');
+					scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+					vizElement.parentNode.insertBefore(scriptElement, vizElement);
+				</script>
+			</body>
+			</html>
 			<hr>
 			<h2>More Projects</h2>
 			<hr class="dotted">
